@@ -1,0 +1,6 @@
+str = input()
+start = int(input())
+end = int(input())
+n = len(str)
+a = n - (start - end)
+print ("'{}'".format(str[(-a):(-end)]))
